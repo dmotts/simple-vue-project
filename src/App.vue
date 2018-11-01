@@ -1,9 +1,20 @@
 <template>
-    <h1>Hello World!</h1>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <app-quote></app-quote>        
+      </div>
+    </div>
+  </div>
 </template>
 
 <script>
+import Quote from './components/Quote.vue'
+
 export default {
+  components: {
+    appQuote: Quote
+  }
 }
 </script>
 
